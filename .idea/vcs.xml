@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/capsules/capsule" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/capsules/novavision-cap-traffic-sign" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/components/component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sdks/novavision" vcs="Git" />
+  </component>
+</project>
