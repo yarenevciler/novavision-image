@@ -7,15 +7,14 @@ import uvicorn
 from fastapi import FastAPI,Request
 
 import json
-from capsules.capsule.src.executors.segmentation import UnetInferrer
-from capsules.capsule.src.executors.trainer import Train
+
+from capsules.capTrafficSignClassifier.src.executors.TrafficSign import TrafficInferrer
 from sdks.novavision.src.base.service import Service
 from sdks.novavision.src.base.bootstrap import Bootstrap
 app = FastAPI()
 
 
-executors ={'Segmentation':{"Segmentation":UnetInferrer, "Train" : Train}
-            }
+executors = {'Traffic':{"Traffic":TrafficInferrer}}
 
 btstrp = Bootstrap(executors)
 bootstrap = btstrp.run()
