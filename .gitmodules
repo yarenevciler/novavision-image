@@ -7,3 +7,9 @@
 [submodule "sdks/novavision"]
 	path = sdks/novavision
 	url = https://github.com/novavision-ai/sdk.git
+[submodule "capTrafficSignClassify"]
+	path = capTrafficSignClassify
+	url = https://github.com/yarenevciler/capTrafficSignClassify.git
+[submodule "capsules/capTrafficSignClassify"]
+	path = capsules/capTrafficSignClassify
+	url = https://github.com/yarenevciler/capTrafficSignClassify.git
