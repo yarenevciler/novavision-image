@@ -14,6 +14,3 @@
 [submodule "capsules/cap-fabric-defect-detection"]
 	path = capsules/cap-fabric-defect-detection
 	url = https://github.com/novavision-ai/cap-fabric-defect-detection.git
-[submodule "capsules/FabricDefectDetection"]
-	path = capsules/FabricDefectDetection
-	url = https://github.com/novavision-ai/cap-fabric-defect-detection.git
